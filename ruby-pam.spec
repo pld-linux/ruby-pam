@@ -3,7 +3,7 @@ Summary:	PAM module for Ruby
 Summary(pl):	Modu³ PAM dla jêzyka Ruby
 Name:		ruby-pam
 Version:	1.5.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages
 Source0:	http://dl.sourceforge.net/ruby-pam/%{name}-%{version}.tar.gz
