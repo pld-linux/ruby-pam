@@ -6,7 +6,7 @@ Version:	1.5.0
 Release:	3
 License:	GPL
 Group:		Development/Languages
-Source0:	http://dl.sourceforge.net/ruby-pam/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/ruby-pam/ruby-pam-%{version}.tar.gz
 # Source0-md5:	a6437f94621811cda255c69d6bb3a673
 URL:		http://ruby-pam.sourceforge.net/ruby-pam.html
 BuildRequires:	pam-devel
@@ -23,7 +23,7 @@ Ruby/PAM (zwany te¿ ruby-pam) to biblioteka rozszerzaj±ca jêzyk Ruby
 udostêpniaj±ca interfejs do API PAM.
 
 %prep
-%setup -q 
+%setup -q -n ruby-pam-%{version}
 
 %build
 ruby extconf.rb
