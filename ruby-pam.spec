@@ -1,4 +1,3 @@
-%define	ruby_sitearchdir	%(ruby -r rbconfig -e 'print Config::CONFIG["sitearchdir"]')
 Summary:	PAM module for Ruby
 Summary(pl):	Modu³ PAM dla jêzyka Ruby
 Name:		ruby-PAM
@@ -9,6 +8,7 @@ Group:		Development/Languages
 Source0:	http://dl.sourceforge.net/ruby-pam/ruby-pam-%{version}.tar.gz
 # Source0-md5:	bf61416ddc429600812b7452f16b1c7b
 URL:		http://ruby-pam.sourceforge.net/ruby-pam.html
+BuildRequires:	rpmbuild(macros) >= 1.264
 BuildRequires:	pam-devel
 BuildRequires:	ruby-devel
 Obsoletes:	ruby-pam
