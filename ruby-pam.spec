@@ -8,10 +8,11 @@ Group:		Development/Languages
 Source0:	http://dl.sourceforge.net/ruby-pam/ruby-pam-%{version}.tar.gz
 # Source0-md5:	bf61416ddc429600812b7452f16b1c7b
 URL:		http://ruby-pam.sourceforge.net/ruby-pam.html
-BuildRequires:	rpmbuild(macros) >= 1.264
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	pam-devel
 BuildRequires:	ruby-devel
 Obsoletes:	ruby-pam
+%ruby_mod_ver_requires_eq
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
