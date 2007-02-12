@@ -1,5 +1,5 @@
 Summary:	PAM module for Ruby
-Summary(pl):	Modu³ PAM dla jêzyka Ruby
+Summary(pl.UTF-8):   ModuÅ‚ PAM dla jÄ™zyka Ruby
 Name:		ruby-PAM
 Version:	1.5.2
 Release:	2
@@ -19,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Ruby/PAM (aka ruby-pam) is an extension library which provides the
 interface to PAM APIs.
 
-%description -l pl
-Ruby/PAM (zwany te¿ ruby-pam) to biblioteka rozszerzaj±ca jêzyk Ruby
-udostêpniaj±ca interfejs do API PAM.
+%description -l pl.UTF-8
+Ruby/PAM (zwany teÅ¼ ruby-pam) to biblioteka rozszerzajÄ…ca jÄ™zyk Ruby
+udostÄ™pniajÄ…ca interfejs do API PAM.
 
 %prep
 %setup -q -n ruby-pam-%{version}
