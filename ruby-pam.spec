@@ -1,5 +1,5 @@
 Summary:	PAM module for Ruby
-Summary(pl.UTF-8):   Moduł PAM dla języka Ruby
+Summary(pl.UTF-8):	Moduł PAM dla języka Ruby
 Name:		ruby-PAM
 Version:	1.5.2
 Release:	2
