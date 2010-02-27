@@ -12,8 +12,9 @@ URL:		http://ruby-pam.sourceforge.net/ruby-pam.html
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	pam-devel
 BuildRequires:	ruby-devel
-Obsoletes:	ruby-PAM
 %{?ruby_mod_ver_requires_eq}
+Obsoletes:	ruby-PAM
+Provides:	ruby-PAM
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
