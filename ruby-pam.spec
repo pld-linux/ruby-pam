@@ -1,6 +1,7 @@
+%define pkgname pam
 Summary:	PAM module for Ruby
 Summary(pl.UTF-8):	Moduł PAM dla języka Ruby
-Name:		ruby-PAM
+Name:		ruby-%{pkgname}
 Version:	1.5.2
 Release:	2
 License:	GPL
@@ -11,7 +12,7 @@ URL:		http://ruby-pam.sourceforge.net/ruby-pam.html
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	pam-devel
 BuildRequires:	ruby-devel
-Obsoletes:	ruby-pam
+Obsoletes:	ruby-PAM
 %{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
